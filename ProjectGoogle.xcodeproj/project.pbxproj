@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BA1AA11E89520A002254B6 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA1AA01E89520A002254B6 /* FindViewController.swift */; };
+		07BA1AA31E89B434002254B6 /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA1AA21E89B434002254B6 /* SuggestionsViewController.swift */; };
+		07BA1AA51E89BCBB002254B6 /* SuggestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA1AA41E89BCBB002254B6 /* SuggestionsTableViewCell.swift */; };
+		07C0DC941E8D435C00E7939B /* GMSDistanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0DC931E8D435C00E7939B /* GMSDistanceAPI.swift */; };
+		07C626801E89426F003AD5D7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 07C6267F1E89426F003AD5D7 /* Podfile */; };
+		07C626821E8945B0003AD5D7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C626811E8945B0003AD5D7 /* MapViewController.swift */; };
+		07D53A4D1E88C17C000020D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D53A4C1E88C17C000020D2 /* AppDelegate.swift */; };
+		07D53A541E88C17D000020D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D53A531E88C17D000020D2 /* Assets.xcassets */; };
+		07D53A571E88C17D000020D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D53A551E88C17D000020D2 /* LaunchScreen.storyboard */; };
+		07D53A621E88C17D000020D2 /* ProjectGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D53A611E88C17D000020D2 /* ProjectGoogleTests.swift */; };
+		07D53A6D1E88C17D000020D2 /* ProjectGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D53A6C1E88C17D000020D2 /* ProjectGoogleUITests.swift */; };
+		99D26B6799BC6F0A90D5707A /* libPods-ProjectGoogle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B780015093A63454E35408 /* libPods-ProjectGoogle.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D53A5E1E88C17D000020D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D53A411E88C17C000020D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D53A481E88C17C000020D2;
+			remoteInfo = ProjectGoogle;
+		};
+		07D53A691E88C17D000020D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D53A411E88C17C000020D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D53A481E88C17C000020D2;
+			remoteInfo = ProjectGoogle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BA1AA01E89520A002254B6 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		07BA1AA21E89B434002254B6 /* SuggestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		07BA1AA41E89BCBB002254B6 /* SuggestionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsTableViewCell.swift; sourceTree = "<group>"; };
+		07C0DC931E8D435C00E7939B /* GMSDistanceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMSDistanceAPI.swift; sourceTree = "<group>"; };
+		07C6267F1E89426F003AD5D7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		07C626811E8945B0003AD5D7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		07D53A491E88C17C000020D2 /* ProjectGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D53A4C1E88C17C000020D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07D53A531E88C17D000020D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D53A561E88C17D000020D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D53A581E88C17D000020D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D53A5D1E88C17D000020D2 /* ProjectGoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectGoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D53A611E88C17D000020D2 /* ProjectGoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGoogleTests.swift; sourceTree = "<group>"; };
+		07D53A631E88C17D000020D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D53A681E88C17D000020D2 /* ProjectGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D53A6C1E88C17D000020D2 /* ProjectGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGoogleUITests.swift; sourceTree = "<group>"; };
+		07D53A6E1E88C17D000020D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B780015093A63454E35408 /* libPods-ProjectGoogle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectGoogle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB61744FDDBCC4193A1A0B51 /* Pods-ProjectGoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectGoogle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectGoogle/Pods-ProjectGoogle.release.xcconfig"; sourceTree = "<group>"; };
+		DF91C2FE772D19BB00247982 /* Pods-ProjectGoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectGoogle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectGoogle/Pods-ProjectGoogle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D53A461E88C17C000020D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D26B6799BC6F0A90D5707A /* libPods-ProjectGoogle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A5A1E88C17D000020D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A651E88C17D000020D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D53A401E88C17C000020D2 = {
+			isa = PBXGroup;
+			children = (
+				07C6267F1E89426F003AD5D7 /* Podfile */,
+				07D53A4B1E88C17C000020D2 /* ProjectGoogle */,
+				07D53A601E88C17D000020D2 /* ProjectGoogleTests */,
+				07D53A6B1E88C17D000020D2 /* ProjectGoogleUITests */,
+				07D53A4A1E88C17C000020D2 /* Products */,
+				73822315459CF029AAEAC344 /* Pods */,
+				649C5AE7560312791968E1AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07D53A4A1E88C17C000020D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D53A491E88C17C000020D2 /* ProjectGoogle.app */,
+				07D53A5D1E88C17D000020D2 /* ProjectGoogleTests.xctest */,
+				07D53A681E88C17D000020D2 /* ProjectGoogleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D53A4B1E88C17C000020D2 /* ProjectGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				07D53A4C1E88C17C000020D2 /* AppDelegate.swift */,
+				07C626811E8945B0003AD5D7 /* MapViewController.swift */,
+				07C0DC931E8D435C00E7939B /* GMSDistanceAPI.swift */,
+				07BA1AA21E89B434002254B6 /* SuggestionsViewController.swift */,
+				07BA1AA41E89BCBB002254B6 /* SuggestionsTableViewCell.swift */,
+				07BA1AA01E89520A002254B6 /* FindViewController.swift */,
+				07D53A531E88C17D000020D2 /* Assets.xcassets */,
+				07D53A551E88C17D000020D2 /* LaunchScreen.storyboard */,
+				07D53A581E88C17D000020D2 /* Info.plist */,
+			);
+			path = ProjectGoogle;
+			sourceTree = "<group>";
+		};
+		07D53A601E88C17D000020D2 /* ProjectGoogleTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D53A611E88C17D000020D2 /* ProjectGoogleTests.swift */,
+				07D53A631E88C17D000020D2 /* Info.plist */,
+			);
+			path = ProjectGoogleTests;
+			sourceTree = "<group>";
+		};
+		07D53A6B1E88C17D000020D2 /* ProjectGoogleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D53A6C1E88C17D000020D2 /* ProjectGoogleUITests.swift */,
+				07D53A6E1E88C17D000020D2 /* Info.plist */,
+			);
+			path = ProjectGoogleUITests;
+			sourceTree = "<group>";
+		};
+		649C5AE7560312791968E1AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B780015093A63454E35408 /* libPods-ProjectGoogle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73822315459CF029AAEAC344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF91C2FE772D19BB00247982 /* Pods-ProjectGoogle.debug.xcconfig */,
+				AB61744FDDBCC4193A1A0B51 /* Pods-ProjectGoogle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D53A481E88C17C000020D2 /* ProjectGoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D53A711E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogle" */;
+			buildPhases = (
+				B0583479C321DECF9810C9CD /* [CP] Check Pods Manifest.lock */,
+				07D53A451E88C17C000020D2 /* Sources */,
+				07D53A461E88C17C000020D2 /* Frameworks */,
+				07D53A471E88C17C000020D2 /* Resources */,
+				2262CAC7BE59FF3F198BF2A7 /* [CP] Embed Pods Frameworks */,
+				D55F50CE2DDC5906657B98AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectGoogle;
+			productName = ProjectGoogle;
+			productReference = 07D53A491E88C17C000020D2 /* ProjectGoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D53A5C1E88C17D000020D2 /* ProjectGoogleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D53A741E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogleTests" */;
+			buildPhases = (
+				07D53A591E88C17D000020D2 /* Sources */,
+				07D53A5A1E88C17D000020D2 /* Frameworks */,
+				07D53A5B1E88C17D000020D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D53A5F1E88C17D000020D2 /* PBXTargetDependency */,
+			);
+			name = ProjectGoogleTests;
+			productName = ProjectGoogleTests;
+			productReference = 07D53A5D1E88C17D000020D2 /* ProjectGoogleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D53A671E88C17D000020D2 /* ProjectGoogleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D53A771E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogleUITests" */;
+			buildPhases = (
+				07D53A641E88C17D000020D2 /* Sources */,
+				07D53A651E88C17D000020D2 /* Frameworks */,
+				07D53A661E88C17D000020D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D53A6A1E88C17D000020D2 /* PBXTargetDependency */,
+			);
+			name = ProjectGoogleUITests;
+			productName = ProjectGoogleUITests;
+			productReference = 07D53A681E88C17D000020D2 /* ProjectGoogleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D53A411E88C17C000020D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kevin Chan";
+				TargetAttributes = {
+					07D53A481E88C17C000020D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JAY3LN6548;
+						ProvisioningStyle = Automatic;
+					};
+					07D53A5C1E88C17D000020D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07D53A481E88C17C000020D2;
+					};
+					07D53A671E88C17D000020D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07D53A481E88C17C000020D2;
+					};
+				};
+			};
+			buildConfigurationList = 07D53A441E88C17C000020D2 /* Build configuration list for PBXProject "ProjectGoogle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D53A401E88C17C000020D2;
+			productRefGroup = 07D53A4A1E88C17C000020D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D53A481E88C17C000020D2 /* ProjectGoogle */,
+				07D53A5C1E88C17D000020D2 /* ProjectGoogleTests */,
+				07D53A671E88C17D000020D2 /* ProjectGoogleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D53A471E88C17C000020D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D53A571E88C17D000020D2 /* LaunchScreen.storyboard in Resources */,
+				07D53A541E88C17D000020D2 /* Assets.xcassets in Resources */,
+				07C626801E89426F003AD5D7 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A5B1E88C17D000020D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A661E88C17D000020D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2262CAC7BE59FF3F198BF2A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectGoogle/Pods-ProjectGoogle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0583479C321DECF9810C9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D55F50CE2DDC5906657B98AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectGoogle/Pods-ProjectGoogle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D53A451E88C17C000020D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BA1AA31E89B434002254B6 /* SuggestionsViewController.swift in Sources */,
+				07BA1AA51E89BCBB002254B6 /* SuggestionsTableViewCell.swift in Sources */,
+				07D53A4D1E88C17C000020D2 /* AppDelegate.swift in Sources */,
+				07C0DC941E8D435C00E7939B /* GMSDistanceAPI.swift in Sources */,
+				07C626821E8945B0003AD5D7 /* MapViewController.swift in Sources */,
+				07BA1AA11E89520A002254B6 /* FindViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A591E88C17D000020D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D53A621E88C17D000020D2 /* ProjectGoogleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D53A641E88C17D000020D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D53A6D1E88C17D000020D2 /* ProjectGoogleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D53A5F1E88C17D000020D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D53A481E88C17C000020D2 /* ProjectGoogle */;
+			targetProxy = 07D53A5E1E88C17D000020D2 /* PBXContainerItemProxy */;
+		};
+		07D53A6A1E88C17D000020D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D53A481E88C17C000020D2 /* ProjectGoogle */;
+			targetProxy = 07D53A691E88C17D000020D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D53A551E88C17D000020D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D53A561E88C17D000020D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D53A6F1E88C17D000020D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07D53A701E88C17D000020D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D53A721E88C17D000020D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF91C2FE772D19BB00247982 /* Pods-ProjectGoogle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JAY3LN6548;
+				INFOPLIST_FILE = ProjectGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07D53A731E88C17D000020D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB61744FDDBCC4193A1A0B51 /* Pods-ProjectGoogle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JAY3LN6548;
+				INFOPLIST_FILE = ProjectGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07D53A751E88C17D000020D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectGoogle.app/ProjectGoogle";
+			};
+			name = Debug;
+		};
+		07D53A761E88C17D000020D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectGoogle.app/ProjectGoogle";
+			};
+			name = Release;
+		};
+		07D53A781E88C17D000020D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProjectGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProjectGoogle;
+			};
+			name = Debug;
+		};
+		07D53A791E88C17D000020D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProjectGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinchan.ProjectGoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProjectGoogle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D53A441E88C17C000020D2 /* Build configuration list for PBXProject "ProjectGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D53A6F1E88C17D000020D2 /* Debug */,
+				07D53A701E88C17D000020D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D53A711E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D53A721E88C17D000020D2 /* Debug */,
+				07D53A731E88C17D000020D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D53A741E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D53A751E88C17D000020D2 /* Debug */,
+				07D53A761E88C17D000020D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D53A771E88C17D000020D2 /* Build configuration list for PBXNativeTarget "ProjectGoogleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D53A781E88C17D000020D2 /* Debug */,
+				07D53A791E88C17D000020D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D53A411E88C17C000020D2 /* Project object */;
+}
